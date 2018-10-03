@@ -1,0 +1,10 @@
+<h1>Here the movies</h1>
+<% data["Search"].forEach(function(movie)
+{%>
+    <li><%=movie["Title"]%></li>
+    <img src=<%=movie["Poster"]%> alt="">
+<%})%>
+
+<form action = "/" method = "GET">
+    <input type="submit" name="" value="seatch again">
+</form>

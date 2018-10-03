@@ -1,0 +1,22 @@
+i.icon{
+    font-size: 2em;
+}
+
+.container.main{
+    margin-top: 7em;
+}
+
+.button.violet{
+    margin: 1em 0.5em 0 0;
+}
+.rightPlaced{
+    float: right;
+    
+}
+#thisOne{
+    margin-right: 0;
+}
+.centerPlaced{
+    float: none;
+    width: 100%;
+}

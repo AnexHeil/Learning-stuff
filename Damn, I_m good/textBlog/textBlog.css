@@ -1,0 +1,38 @@
+/*border-color: #bdc3c7
+date color:#3498db
+h2 color #2c3e50
+source sans pro*/
+body{
+	border: 20px lightgrey solid;
+	font-family: source sans pro;
+	width: 80%;
+	max-width: 700px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+div{
+	border-bottom: 2px #f1f1f1 solid; 
+	margin-bottom: 20px;
+}
+
+.date{
+	font-size: normal;
+	font-weight: 400;
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+}
+
+.name{
+	font-size: 2.0rem;
+	color: #2c3e50;
+}
+
+p{
+	font-weight: 600;
+}
+.first{
+	border-left: 5px lightgrey solid;
+	padding-left: 1%; 
+}

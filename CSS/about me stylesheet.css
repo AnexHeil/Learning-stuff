@@ -1,0 +1,21 @@
+h1{
+	color: red;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid; */
+	border: 5px purple solid;
+}
+li{
+	color: purple;
+}
+h4{
+	color: green;
+	background: rgb(255, 100, 80); 
+}
+body{
+	/*background-image: url(https://png.pngtree.com/element_origin_min_pic/16/09/07/1057cf80393bc89.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: pink;
+}
+

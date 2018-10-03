@@ -1,0 +1,47 @@
+h1{
+	text-align: center;
+}
+
+table{
+	margin:auto;
+}
+
+td{
+	padding: 100px;
+}
+/*#first{
+}
+#second{
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+}
+#third{
+}
+#four{
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+}
+#five{
+	border-top: 2px black solid;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+	border-bottom: 2px black solid;
+}
+#six{
+	border-bottom: 2px black solid;
+	border-top: 2px black solid;
+}
+#seven{
+}
+#eight{
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+}*/
+.vertical{
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+}
+.horizontal{
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+}

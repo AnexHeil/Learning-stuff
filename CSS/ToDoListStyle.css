@@ -1,0 +1,12 @@
+li{
+	border: 2px solid red;
+}
+#special{
+	color: green;
+}
+.complited{
+	background: red;
+}
+*{
+	border-style: dotted;
+}

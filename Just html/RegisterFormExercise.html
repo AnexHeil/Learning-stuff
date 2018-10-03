@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>REGISTER</h1>
+	<form>
+		<div>
+			<label for="Name">First Name:</label>
+			<input id="Name" type="text" name="Name" placeholder="John" required="">
+			<label for="Surname">Last Name:</label>
+			<input id="Surname" type="text" name="Surname" placeholder="Smith" required="">
+		</div>
+		<div>
+			<label for="male">Male</label>
+			<input id="male" type="radio" name="sex" value="Male">
+			<label for="female">Female</label>
+			<input id="female" type="radio" name="sex" value="Female">
+			<label for="other">Other</label>
+			<input id="other" type="radio" name="sex" value="Other">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="Email" required="">
+			<label for="pass">Password</label>
+			<input type="Password" name="Password" pattern=".{5,10}" required title="fuck you">
+		</div>
+		<div>
+			<label>Birthday</label>
+			<select name="birthdayyear">
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+			</select>
+			<select name="birthdayday">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<select name="birthdaymounth">
+				<option>May</option>
+				<option>August</option>
+				<option>Septemder</option>
+			</select>
+		</div>
+		<dir>
+			<label for="yes">I agree</label>
+			<input type="checkbox" name="Yes" value="Yes" required="">
+		</dir>
+		<button>OK</button>
+	</form>
+</body>
+</html>

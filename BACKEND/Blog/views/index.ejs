@@ -1,0 +1,13 @@
+<%include partials/header.ejs%>
+<h1>This is a blog page</h1>
+<%blogs.forEach(function(blog){%>
+<div class = "ui container text main segment">
+    <h2><%=blog.title%></h2>
+    <img src="<%=blog.image%>" alt="">
+    <p><%=blog.body.substring(0, 100)%>...</p>
+    <%=blog.created%>
+    <p><a class = "ui black basic button " href="/blogs/<%=blog._id%>">Show more info</a></p>
+</div>
+    
+<%})%>
+<%include partials/footer.ejs%>
